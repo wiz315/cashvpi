@@ -18,7 +18,7 @@ class UserSchema(BaseModel):
     pendingBalance : int = 0
     sms_code: str = Field(...)
     email_code: str = Field(...)
-    created_at: datetime | None
+    created_at: datetime 
     class Config:
         orm_mode = True
 # password
