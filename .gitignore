@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__
+.space
+Procfile
+SpaceFile
+test.py

@@ -1,0 +1,5 @@
+version: ""
+services:
+  mongo:
+    image: mongo:latest
+    conta
